@@ -1,12 +1,22 @@
 package steps;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+
+
 public class StepDefinition1 {
 	
-
 	    @Given("User is given 2 numbers  1 and 2")
 	    public void integer_no(Integer int1) {
 	        // Write code here that turns the phrase above into concrete actions
@@ -24,9 +34,7 @@ public class StepDefinition1 {
 	    }
 
 	    
-	    
-	    //2nd given 
-	    
+
 	    
 
 
