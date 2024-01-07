@@ -33,6 +33,7 @@ public class StepDefinition2 {
 				driver.manage().window().maximize();
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 				driver.get(prObj.getProperty("URL"));
+				
 	    }
 	 }
 			

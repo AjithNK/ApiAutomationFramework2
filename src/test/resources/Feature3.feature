@@ -1,4 +1,5 @@
 
+@tag2
 Feature: Verify mathematical operations
 
   Scenario: Verify integer addition is working fine

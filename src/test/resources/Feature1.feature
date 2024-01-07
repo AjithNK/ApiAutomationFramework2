@@ -1,4 +1,5 @@
 
+@tag1
 Feature: Verify mathematical operations
 
   Scenario: Verify integer addition is working fine
@@ -8,4 +9,3 @@ Feature: Verify mathematical operations
  
  
  
- Write a scenario to verify the login pag
